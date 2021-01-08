@@ -1,5 +1,5 @@
 package com.beniregev.java8lambdasbasic;
 
-public interface Greeting {
+public interface IGreeting {
     public void perform();
 }

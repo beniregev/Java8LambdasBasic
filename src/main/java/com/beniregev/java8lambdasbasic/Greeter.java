@@ -11,8 +11,8 @@ public class Greeter {
         System.out.println("Hello World!");
     }
 
-    public void greetUsingInterface(Greeting greeting) {
-        greeting.perform();
+    public void greetUsingInterface(IGreeting IGreeting) {
+        IGreeting.perform();
     }
 
     public static void main(String[] args) {
